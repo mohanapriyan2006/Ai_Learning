@@ -61,7 +61,7 @@ while True:
     cv2.imshow("Orange color Object Detector",img)
     
     
-    key = cv2.waitKey(10)
+    key = cv2.waitKey(1)
     if(key == ord('q') or key == ord('Q')):
         print("Program was stoped!")
         break
