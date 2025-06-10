@@ -14,11 +14,10 @@ for (_ ,dirs , _) in os.walk(datasets):
         subdirpath = os.path.join(datasets,subdir)
         for filename in os.listdir(subdirpath):
             path = subdirpath + '/' + filename
-            label = id
             Img = cv2.imread(path,0)
             resize_Img = cv2.resize(Img,(width,height))
             images.append(resize_Img)
-            labels.append(int(label))
+            labels.append(int(id))
         id += 1
         
 (images,labels) = [numpy.array(lis) for lis in [images,labels]]

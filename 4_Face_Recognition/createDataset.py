@@ -29,7 +29,7 @@ while count < 51:
         count += 1
         
     cv2.imshow("Create Face Dataset",img)
-    key = cv2.waitKey(10)
+    key = cv2.waitKey(1)
     # ESC == 27
     if key == 27:
         break

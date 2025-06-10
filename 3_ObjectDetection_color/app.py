@@ -52,6 +52,10 @@ while True:
                     text2 = "Go Rigth"
                 elif(center[0] > 450):
                     text2 = "Go Left"
+                elif(center[1] > 300):
+                    text2 = "Go Up"
+                elif(center[1] < 150):
+                    text2 = "Go Down"
                 else:
                     text2 = "Come Front"
                     

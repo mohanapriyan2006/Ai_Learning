@@ -57,7 +57,7 @@ while True:
     if not motion_detected:
         firstFrame = blur_img.copy()
 
-    key = cv2.waitKey(10)
+    key = cv2.waitKey(1)
     if key == ord('q'):
         break
 
