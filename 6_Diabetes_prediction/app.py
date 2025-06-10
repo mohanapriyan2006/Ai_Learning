@@ -19,3 +19,4 @@ prediction = model.predict(x)
 
 for i in range(1,11):
     print("%s ==> output: %d (expected: %d)" % (x[i].tolist(),prediction[i],y[i]))
+    
