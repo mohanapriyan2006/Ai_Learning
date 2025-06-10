@@ -8,7 +8,7 @@ A beginner-to-intermediate collection of practical **AI and computer vision** ex
 - 🟥 **Object Tracking** using HSV color range and webcam
 - 🎥 **Real-Time Video Processing** with OpenCV
 - 🗂️ Custom dataset generation and preprocessing
---📃 And more...
+- 📃 And more...
 
 ## 🛠️ Tech Stack
 - **Python**
