@@ -39,8 +39,8 @@ _,accuracy = model.evaluate(x,y)
 print("\n Accuracy: %.2f percentage." % (accuracy*100))
 
 # # save model
-# json_model = model.to_json()
-# with open("model.json","w") as modelfile:
-#     modelfile.write(json_model)
-# model.save_weights("model.weights.h5")
-# print("\n\n Model and Its weight was saved successfully.")
+json_model = model.to_json()
+with open("model.json","w") as modelfile:
+    modelfile.write(json_model)
+model.save_weights("model.weights.h5")
+print("\n\n Model and Its weight was saved successfully.")
