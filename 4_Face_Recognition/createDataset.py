@@ -2,7 +2,7 @@ import os , cv2,imutils
 
 haar_file = "haarcascade_frontalface_default.xml"
 dataset = "datasets"
-sub_data = "Ratan Tata"
+sub_data = "sample"
 
 path = os.path.join(dataset,sub_data)
 if not os.path.isdir(path):
@@ -13,10 +13,12 @@ cam = cv2.VideoCapture(0)
 
 width , height = (130,100)
 
-count = 1
+count = 0
 
 while count < 51:
     _,img = cam.read()
+    if not count:
+        continue
     gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
     faces = face_algrm.detectMultiScale(gray,1.3,4)
     
