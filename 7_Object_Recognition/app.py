@@ -20,7 +20,7 @@ print(" Model is Loaded successfully.\n")
 print("Camera initializing...")
 cam = cv2.VideoCapture(0)
 # by 'footage'
-# cam = cv2.VideoCapture("footage.mp4")
+# cam = cv2.VideoCapture("traffic_footage.mp4")
 time.sleep(1.0)
 print(" Object Recognition is started.\n  Press 'ESC' to close.\n")
 
