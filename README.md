@@ -32,4 +32,4 @@ git clone https://github.com/mohanapriyan2006/Ai_Learning.git
 pip install opencv-python numpy
 
 # Run face detection
-python Day3_Face_Detection/face_detect.py
+python 1_FaceDetection/face.py
