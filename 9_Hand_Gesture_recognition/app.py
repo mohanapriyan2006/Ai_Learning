@@ -1,21 +1,22 @@
-from keras.models import model_from_json
+'''
+    First run the train.py file using cmd 'py train.py'
+    and then Run it.
+'''
+
+from keras.models import load_model
 import os
 import numpy as np
 from keras.preprocessing import image
 
 print("\nModel is Loading ... \n")
-modelFile = open("model.json",'r')
-modelJson = modelFile.read()
-modelFile.close()
-model = model_from_json(modelJson)
-model.load_weights("model.weights.h5")
+model = load_model("model.keras")
 print("\n Model is Loaded successfully. \n")
 
 
 def classify(f):
     filePath = f
     img = image.load_img(filePath,target_size=(256,256),color_mode="grayscale")
-    img = image.array_to_img(img)
+    img = image.img_to_array(img)
     img = np.expand_dims(img,axis=0)
     
     result = model.predict(img)
@@ -33,7 +34,7 @@ files=[]
 for rt,dir,file in os.walk(path):
     for f in file:
         if ".png" in f:
-            file.append(os.path.join(path,f))
+            files.append(os.path.join(path,f))
 print(" Datasets are Loaded.\n")
 
 print("\nHand Gesture is started:")

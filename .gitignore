@@ -1,0 +1,52 @@
+# Ignore Keras files
+*.keras
+*.h5
+*.hdf5
+*.weights.h5
+model.json
+
+# Ignore training checkpoints
+checkpoints/
+logs/
+
+# Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+*.pyd
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite

@@ -1,7 +1,7 @@
 from keras.models import Sequential
 from keras.layers import Conv2D,MaxPooling2D,Dropout,Flatten,Dense
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
-from keras.callbacks import EarlyStopping,ModelCheckpoint
+from keras.callbacks import EarlyStopping,ModelCheckpoint,ReduceLROnPlateau
 
 model = Sequential()
 
@@ -51,22 +51,27 @@ val_dataset = val_datagen.flow_from_directory('HandGestureDataset/test',
 
 
 callback_list = [
-    EarlyStopping(monitor="val_loss",patience=10),
-    ModelCheckpoint(filepath="model2.weights.h5",monitor="val_loss",save_best_only=True,verbose=1)
+    EarlyStopping(patience=15, restore_best_weights=True),
+    ModelCheckpoint('best_model.keras', save_best_only=True),
+    ReduceLROnPlateau(factor=0.1, patience=10)
 ]
 
 model.fit(
     train_dataset,
-    steps_per_epoch=10,
-    epochs=30,
+    steps_per_epoch=20,
+    epochs=40,
     validation_data=val_dataset,
     validation_steps=2,
     callbacks=callback_list
 )
 
 # save the model
-modelJson = model.to_json()
-with open("model2.json",'w') as file:
-    file.write(modelJson)
-model.save_weights("model2.weights.h5")
-print("\n  Model is saved to your disk.")
+# modelJson = model.to_json()
+# with open("model.json",'w') as file:
+#     file.write(modelJson)
+# model.save_weights("model.weights.h5")
+# print("\n  Model is saved to your disk.")
+
+model.save("model.keras")  # Saves both architecture and weights
+print("\nModel saved in Keras 3 format (model.keras)")
+model.save("legacy_model.h5")

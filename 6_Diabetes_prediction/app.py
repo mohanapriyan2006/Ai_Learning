@@ -1,3 +1,8 @@
+'''
+    First run the train.py file using cmd 'py train.py'
+    and then Run it.
+'''
+
 from numpy import loadtxt
 from keras.models import model_from_json
 
