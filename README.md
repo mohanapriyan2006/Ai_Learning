@@ -21,7 +21,10 @@ A beginner-to-intermediate collection of practical **AI and computer vision** ex
 - 🟥 [**Color Object Tracking**](3_ObjectDetection_color) using HSV color range and webcam<br>
 ![preview](3_ObjectDetection_color/preview/preview.gif)<br>
 
-- 📱 [**Moving Object Detection**](2_Moving_Object_detection) using HSV color range and webcam<br>
+- ✌ [**9_Hand Gesture Recognition**](9_Hand_Gesture_recognition) using HSV color range and webcam<br>
+![preview](9_Hand_Gesture_recognition/preview/preview.png)<br>
+
+- 📱 [**Moving Object Detection**](2_Moving_Object_detection) using keras model and training<br>
 ![preview](2_Moving_Object_detection/preview/preview.gif)<br>
 
 - 📈 [**Diabetes Prediction**](6_Diabetes_prediction) using pre-trained model<br>

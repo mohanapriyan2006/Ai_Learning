@@ -1,7 +1,11 @@
 import cv2
 import numpy as np
 import math
+
+# by webCam
 cap = cv2.VideoCapture(0)
+
+
 while(True):
 
     __,img=cap.read()
