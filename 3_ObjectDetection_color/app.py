@@ -4,7 +4,8 @@ import imutils as imu
 inLower= (0,84,182)
 inUpper = (179,255,255)
 
-vc = cv2.VideoCapture(0)
+# vc = cv2.VideoCapture(0)
+vc = cv2.VideoCapture("video.mp4")
 
 print("Program is running.... \n To Stop this Program, Click 'q'")
 
@@ -40,8 +41,8 @@ while True:
             center = (int(M["m10"]/ M["m00"]) , int(M["m01"]/M["m00"]))
                 
             if(radius > 10):
-                cv2.circle(img,(int(x) , int(y)) , int(radius) , (0,255,255) , 2)
-                cv2.circle(img,center, 4 , (0,0,255) , -1)
+                cv2.circle(img,(int(x) , int(y)) , int(radius) , (0,255,0) , 2)
+                cv2.circle(img,center, 4 , (255,0,0) , -1)
                 text1 = "Orange Object is Detected."
                 text1_clr = (0,255,0)
                 
