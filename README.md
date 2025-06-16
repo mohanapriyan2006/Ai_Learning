@@ -4,11 +4,11 @@ A beginner-to-intermediate collection of practical **AI and computer vision** ex
 
 ## 🧠 What You'll Find
 - 🧍 [**Face Recognition**](4_Face_Recognition) using FisherFace algorithm <br>
-![preview](4_Face_Recognition/preview/preview.gif)
-<br>
+![preview](4_Face_Recognition/preview/preview.gif)<br>
+
 - 😀 [**Emotion Recognition**](5_Emotion_Recognition) using FisherFace algorithm <br>
-![preview](5_Emotion_Recognition/preview/preview.gif)
-<br>
+![preview](5_Emotion_Recognition/preview/preview.gif)<br>
+  
 - 👁️‍🗨️ [**Face Detection**](1_FaceDetection) using Haar Cascades<br>
 ![preview](1_FaceDetection/preview/preview.gif)<br>
 
