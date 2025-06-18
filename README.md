@@ -6,10 +6,10 @@ A beginner-to-intermediate collection of practical **AI and computer vision** ex
 - ☘️ [**Leaf Disease Detection**](_10_Leaf_Disease_Detection) using keras model and training with datasets and tkinter<br>
 ![preview](_10_Leaf_Disease_Detection/preview/preview.gif)<br>
 
-- 🧍 [**Face Recognition**](4_Face_Recognition) using FisherFace algorithm <br>
+- 🧍 [**Face Recognition**](4_Face_Recognition) using FisherFace algorithm & keras model with datasets <br>
 ![preview](4_Face_Recognition/preview/preview.gif)<br>
 
-- 😀 [**Emotion Recognition**](5_Emotion_Recognition) using FisherFace algorithm & keras model with datasets <br>
+- 😀 [**Emotion Recognition**](5_Emotion_Recognition) using FisherFace algorithm <br>
 ![preview](5_Emotion_Recognition/preview/preview.gif)<br>
   
 - 👁️‍🗨️ [**Face Detection**](1_FaceDetection) using Haar Cascades<br>
