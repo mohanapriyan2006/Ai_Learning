@@ -4,7 +4,7 @@ A beginner-to-intermediate collection of practical **AI and computer vision** ex
 
 ## 🧠 What You'll Find
 - ☘️ [**Leaf Disease Detection**](10_Leaf_Disease_Detection) using keras model and training with datasets<br>
-![preview](10_Leaf_Disease_Detection/preview/preview.gif)<br>
+![preview](_10_Leaf_Disease_Detection/preview/preview.gif)<br>
 
 - 🧍 [**Face Recognition**](4_Face_Recognition) using FisherFace algorithm <br>
 ![preview](4_Face_Recognition/preview/preview.gif)<br>
