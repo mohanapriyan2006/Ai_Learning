@@ -1,6 +1,6 @@
 '''
-    First run the train.py file using cmd 'py train.py'
-    and then Run it.
+    First RUN the train.py file using CMD 'py train.py'
+    and then RUN it.
 '''
 
 from numpy import loadtxt

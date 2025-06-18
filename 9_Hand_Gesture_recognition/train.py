@@ -1,3 +1,7 @@
+'''
+    RUN IT first and the RUN app.py or else
+'''
+
 from keras.models import Sequential
 from keras.layers import Conv2D,MaxPooling2D,Dropout,Flatten,Dense
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
