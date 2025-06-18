@@ -3,6 +3,9 @@
 A beginner-to-intermediate collection of practical **AI and computer vision** experiments using Python and OpenCV. This repository showcases real-time projects like **face detection**, **face recognition**, and **object tracking**—all built from scratch to learn core AI concepts.
 
 ## 🧠 What You'll Find
+- ☘️ [**Leaf Disease Detection**](10_Leaf_Disease_Detection) using FisherFace algorithm <br>
+![preview](10_Leaf_Disease_Detection/preview/preview.gif)<br>
+
 - 🧍 [**Face Recognition**](4_Face_Recognition) using FisherFace algorithm <br>
 ![preview](4_Face_Recognition/preview/preview.gif)<br>
 
@@ -43,6 +46,7 @@ A beginner-to-intermediate collection of practical **AI and computer vision** ex
 - **TensorFlow**
 - **Tourch**
 - **keras**
+- **TKinter**
 - **And more....**
 
 ## 🚀 Getting Started

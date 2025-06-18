@@ -65,3 +65,4 @@ print("--------------------------------------------------")
     
 print("  Leaf Disease Prediction stoped.")
 
+

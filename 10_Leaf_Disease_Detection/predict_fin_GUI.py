@@ -68,9 +68,6 @@ win.title("Leaf Disease Detection using OpenCV")
 win.bind("<Return>", b1_click)
 win.mainloop()
 
-        
-
- 
 
 
 
