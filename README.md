@@ -15,6 +15,9 @@ A beginner-to-intermediate collection of practical **AI and computer vision** ex
 - ㊗ [**Character Recognition**](_11_Character_recognition) using keras model with datasets & PQt5 <br>
 ![preview](_11_Character_recognition/preview/preview.gif)<br>
   
+- 🆎 [**Label(TEXT) Reading from Image**](_12_Label_Reading_usingOCR) using OCR & pytesseract <br>
+![preview](_12_Label_Reading_usingOCR/preview/preview.gif)<br>
+
 - 👁️‍🗨️ [**Face Detection**](1_FaceDetection) using Haar Cascades<br>
 ![preview](1_FaceDetection/preview/preview.gif)<br>
 
