@@ -11,6 +11,9 @@ A beginner-to-intermediate collection of practical **AI and computer vision** ex
 
 - 😀 [**Emotion Recognition**](5_Emotion_Recognition) using FisherFace algorithm <br>
 ![preview](5_Emotion_Recognition/preview/preview.gif)<br>
+
+- ㊗ [**Character Recognition**](_11_Character_recognition) using keras model with datasets & PQt5 <br>
+![preview](_11_Character_recognition/preview/preview.gif)<br>
   
 - 👁️‍🗨️ [**Face Detection**](1_FaceDetection) using Haar Cascades<br>
 ![preview](1_FaceDetection/preview/preview.gif)<br>

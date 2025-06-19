@@ -94,13 +94,13 @@ class Ui_MainWindow(object):
             self.imageLbl.setAlignment(QtCore.Qt.AlignCenter) # Align the label to center
 
     def classifyFunction(self):
-        json_file = open('model.json', 'r')
+        json_file = open('D:\VS_code\Python_AI_Learning\_11_Character_recognition\model.json', 'r')
         loaded_model_json = json_file.read()
         json_file.close()
         loaded_model = model_from_json(loaded_model_json)
         # load weights into new model
-        loaded_model.load_weights("model.h5")
-        print("Loaded model from disk");
+        loaded_model.load_weights("D:\VS_code\Python_AI_Learning\_11_Character_recognition\model.h5")
+        print("Loaded model from disk")
         label=["sunna","ek","das","be","tran","char","panc","cha","sat","at","nav","ALA","ANA","B","BHA","CH","CHH","D","DA","DH","DHA","F","G","GH","GNA","H","J","JH","K","KH","KSH","L","M","N","P","R","S","SH","SHH","T","TA","TH","THA","V","Y"]
         #label=["fifty","fivehundred","hundred","ten","twenty","twohundred"]
         path2=self.file

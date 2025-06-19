@@ -8,6 +8,7 @@ model.json
 # Ignore training checkpoints
 checkpoints/
 logs/
+_11_Character_recognition/gujarati_env/
 
 # Python files
 __pycache__/
