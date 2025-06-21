@@ -66,3 +66,4 @@ pip install opencv-python numpy
 # Run face detection
 python 1_FaceDetection/face.py
 
+
